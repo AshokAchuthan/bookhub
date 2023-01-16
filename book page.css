@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fullpage{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('https://w0.peakpx.com/wallpaper/975/852/HD-wallpaper-books-reading-books-background-with-books-bookshelf.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+nav ul li button{
+    font-size: 20px;
+    color:white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+nav ul li button:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+nav ul li a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+.headtitle{
+    position:relative;
+    margin-top: 15%;
+    font-size: 100%;
+}
+.headtitle h1{
+    font-family: 'Shojumaru', cursive;
+    font-size: 390%;text-shadow: rgb(0, 0, 0) 5px 5px;
+    transition: 1s;
+    color: rgb(163, 1, 1);
+
+}
+.headtitle h1:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+    color: rgb(217, 255, 0);
+}
+.row0{
+    display: flex;
+
+}
+.row01{
+    height: 150px;
+    width: 150px;
+    transition: 0.5s;
+    margin-left: 17px;
+}
+.row01:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px;
+}
+.row02{
+    height: 150px;
+    width: 150px;
+    transition: 0.5s;
+    margin-left: 17px;
+}
+.row02:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px;
+}
+.row03{
+    height: 150px;
+    width: 150px;
+    transition: 0.5s;
+    margin-left: 17px;
+}
+.row03:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px;
+}
+.row2{
+    display: flex;
+}
+
+.row2 .col1{
+    height: 350px;
+    width:250px;
+    margin: 10px;
+    background-image: linear-gradient(to right,grey,white);
+    border-radius: 20px 20px 20px 40px;
+    border:10px;
+    box-shadow: 2px 3px;
+    transition:0.5s;
+}
+.row2 .col1:hover{
+    transform: scale(1.1);
+}
+.row2 .col1 img{
+    border-radius: 50%;
+    margin: 10px;
+    border:double 3px;
+}
+
+
+.row2 .col2{
+    height: 350px;
+    width:250px;
+    margin: 10px;
+    background-image: linear-gradient(to right,rgb(94, 62, 89),white);
+    border-radius: 20px 20px 20px 40px;
+    border:10px;
+    box-shadow: 2px 3px;
+    transition: 0.5s;
+}
+
+.row2 .col2:hover{
+    transform: scale(1.1);
+}
+.row2 .col2 img{
+    border-radius: 50%;
+    margin: 10px;
+    border:double 3px;
+}
+.row2 .col3{
+    height: 350px;
+    width:250px;
+    margin: 10px;
+    background-image: linear-gradient(to right,rgb(85, 80, 99),white);
+    border-radius: 20px 20px 20px 40px;
+    border:10px;
+    box-shadow: 2px 3px;
+    transition: 0.5s;
+}
+.row2 .col3:hover{
+    transform: scale(1.1);
+}
+.row2 .col3 img{
+    border-radius: 50%;
+    margin: 10px;
+    border:double 3px;
+}
+
+.row2 .col4{
+    height: 350px;
+    width:250px;
+    margin: 10px;
+    background-image: linear-gradient(to right,rgb(63, 85, 67),white);
+    border-radius: 20px 20px 20px 40px;
+    border:10px;
+    box-shadow: 2px 3px;
+    transition: 0.5s;
+    size: 10px;
+}
+.row2 .col4:hover{
+    transform: scale(1.1);
+}
+.row2 .col4 img{
+    border-radius: 50%;
+    margin: 10px;
+    border:double 3px;
+}
+
+.row2 .col5{
+   
+    height: 350px;
+    width:250px;
+    margin: 10px;
+    background-image: linear-gradient(to right,rgb(228, 147, 147),white);
+    border-radius: 20px 20px 20px 40px;
+    border:10px;
+    box-shadow: 2px 3px;
+    transition: 0.5s;
+}
+.row2 .col5:hover{
+    transform: scale(1.1);
+}
+.row2 .col5 img{
+    border-radius: 50%;
+    margin: 10px;
+    border:double 3px;
+}
+
+h3{
+    padding: 7px;
+    font-size: 10px;
+}
+
+.scroll-left {
+    border: 2px ;
+    box-shadow: 2px 3px 4px;
+    border-radius: 5px;
+    height: 50px;
+    overflow: hidden;
+    background-image: linear-gradient(to right,rgb(70, 2, 2),rgb(102, 4, 4));
+  }
+
+  .scroll-left {
+    text-align: right;
+  
+    /* animation properties */
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    
+    -moz-animation: my-animation 30s linear infinite;
+    -webkit-animation: my-animation 30s linear infinite;
+    animation: my-animation 30s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateX(-100%); }
+    to { -moz-transform: translateX(100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(-100%); }
+    to { -webkit-transform: translateX(100%); }
+  }
+
+  .scroll-left .button{
+    /* background-color: rgb(245, 245, 247); */
+    text-align: center;
+  }
+  .png .ammu img{
+    height: 700px;
+    width: 550px;
+  }
+  
+  .png{
+    display: flex;
+  }
+  .ammu1 .col1{
+    height: 300px;
+    width:230px;
+    margin: 15px;
+    background-image: linear-gradient(to right,rgb(12, 85, 49),white);
+    border-radius: 20px 20px 20px 40px;
+    border:10px;
+    box-shadow: 2px 3px;
+    transition:0.5s;
+}
+.ammu1 .col2{
+    height: 300px;
+    width:230px;
+    margin: 15px;
+    background-image: linear-gradient(to right,rgb(9, 20, 85),white);
+    border-radius: 20px 20px 20px 40px;
+    border:10px;
+    box-shadow: 2px 3px;
+    transition:0.5s;
+}
+.ammu1 .col3{
+    height: 300px;
+    width:230px;
+    margin: 15px;
+    background-image: linear-gradient(to right,grey,white);
+    border-radius: 20px 20px 20px 40px;
+    border:10px;
+    box-shadow: 2px 3px;
+    transition:0.5s;
+}
+/*  */
+.abt p{
+    font-family: 'Dancing Script', cursive;
+}
+.conta{
+    display: flex;
+}
+.conta .pr{
+    width: 400px;
+    margin-left: 110px;
+    box-shadow: 3px 5px;
+}
+.conta .pr1{
+    width: 400px;
+    box-shadow: 3px 5px;
+}
